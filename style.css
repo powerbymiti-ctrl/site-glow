@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #faf7f9;
+}
+
+/* Meniul de sus */
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d81b60;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #d81b60;
+}
+
+/* Partea principală (Hero) cu poza ta */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('pozasalon.jpg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #d81b60;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #ad1457;
+}
+
+/* Secțiunea de servicii */
+.servicii {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicii h2 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.grid-servicii {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.card h3 {
+    color: #d81b60;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+.contact {
+    background-color: #fce4ec;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
